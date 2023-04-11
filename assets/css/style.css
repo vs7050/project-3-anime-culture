@@ -1,0 +1,154 @@
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+h2 {
+    color: dodgerblue;
+    padding-left: 15px;
+    text-align: center;
+}
+
+h3 {
+    padding-left: 15px;
+    text-decoration: underline;
+    line-height: 1.5;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* Paragraph Modifiers */
+p {
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.indent {
+    padding-left: 40px;
+    text-indent: -30px;
+    width: 900px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: left
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+/* Transparent Box */
+.transbox {
+    border: 1px solid black;
+    background: rgba(255,255,255,0.8);
+    margin-bottom: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+/* Background Image */
+body {
+    background-image: url(../images/rimuruhd.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(246,243,228)
+}
+
+/* Navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+    color: black;
+}
+
+.active {
+  background-color: darkkhaki;
+}
+
+/* Margins */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right {
+    float: right;
+    padding-top: 20px;
+}
+
+.left {
+    float: left;
+}
+/* Image Rollover */
+.container {
+    position: relative;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    display: block;
+    width: 75%;
+    height: 101%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 700px){
+    
+}

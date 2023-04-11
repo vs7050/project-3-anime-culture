@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">   
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Anime and More - Manga</title>
+    <meta charset="utf-8"/>
+</head>
+    
+    <body>
+        <h1>Manga</h1>
+        <div class="topnav">
+                <a href="index.html" class="active"><img src="assets/images/slime.png" alt="Slime" height="60" width="60"></a>
+            <div id="myLinks">
+                <a href="anime.html">Anime</a>
+                <a href="manga.html">Manga</a>
+                <a href="music.html">Music</a>
+                <a href="resources.html">Resources</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">=</a>
+        </div>
+        <div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } 
+                else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        </div>
+        <div class="transbox">
+        <h3 class="transbox">What is Manga?</h3>
+        <p class="transbox">
+            Manga is the Japanese term for comics. When we hear comics, we tend to think about Charlie Brown or superheroes.<br>
+            These concepts are usually viewed and enjoyed by males. However, for the Japanese, manga has an appeal to everyone;<br>
+            there is almost always something for everyone, whether it is child-friendly content, more adult-themed content, or even<br>
+            slice of life or relatable content. Compared to American comics, the complexity of plots and diversity of genres in<br>
+            manga outdo them by a mile I feel.<br>
+            Here is an example of what Japanese manga would look like if you were to pick one up now:
+        </p>
+        <div class="container">
+            <img class="image" src="assets/images/cover.png" alt="Manga Cover">
+            <div class="overlay">
+            <img class="image" src="assets/images/manga.png" alt="Manga Page">
+            </div>
+        </div>
+        </div>
+        
+    </body>
+</html>

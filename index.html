@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Anime and More - Home</title>
+    <meta charset="utf-8"/>
+</head>
+    
+    <body>
+        <h1>Home</h1>
+        <div class="topnav">
+                <a href="index.html" class="active"><img src="assets/images/slime.png" alt="Slime" height="60" width="60"></a>
+            <div id="myLinks">
+                <a href="anime.html">Anime</a>
+                <a href="manga.html">Manga</a>
+                <a href="music.html">Music</a>
+                <a href="resources.html">Resources</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">=</a>
+        </div>
+        <div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } 
+                else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        </div>
+        <br/>
+        <div class="transbox">
+            <h3>About</h3>
+                <p>
+                    This website has been made to inform people who do not know much about a major of Japanese culture that has<br>
+                    influenced a decent portion of the world. Anime, manga, and Japanese pop music have definitely impacted the<br>
+                    modern world in one way or another. In recent times, I have seen an increase of popularity of this part of <br>
+                    the Japanese culture, and wanted to make this website as a little introduction to those who do not know. 
+                </p>
+            <img src="assets/images/rimurucartoon.png" alt="Rimuru drawing">
+        </div>
+    </body>
+</html>

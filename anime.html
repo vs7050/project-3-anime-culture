@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Anime and More - Anime</title>
+    <meta charset="utf-8"/>
+</head>
+    
+    <body>
+        <h1>Anime</h1>
+        <div class="topnav">
+                <a href="index.html" class="active"><img src="assets/images/slime.png" alt="Slime"></a>
+            <div id="myLinks">
+                <a href="anime.html">Anime</a>
+                <a href="manga.html">Manga</a>
+                <a href="music.html">Music</a>
+                <a href="resources.html">Resources</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">=</a>
+        </div>
+        <div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } 
+                else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        </div>
+        
+        <h3 class="transbox"> What is Anime?</h3>
+        <p class="transbox">
+            Anime, the japanese way of saying "animation", has become more and more popular in the western world<br>
+            as of recent. To give a comparison, Japanese anime is most similar to our cartoon shows that we see on TV.<br>
+            However, it is a little different, with Japanese artists having their own style of drawing. Here is a snippet<br>
+            of an anime called "That Time I Got Reincarnated as a Slime":
+        </p>
+        <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/ExKsTcOKfb0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="transbox">
+            However, typically, there would not be subtitles if you were in Japan. This version of anime is normally called "sub",<br>
+            where there are subtitles to go along with the anime. Another version would be called "dub" where the anime is actually<br>
+            re-voiced in English by voice actors.
+        </p>
+    </body>
+</html>
